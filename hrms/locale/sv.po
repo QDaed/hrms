@@ -5935,8 +5935,8 @@ msgid "Fractional Cost"
 msgstr "Delkostnad"
 
 #: frontend/src/components/BaseLayout.vue:9
-msgid "Frappe HR"
-msgstr "Frappe HR"
+msgid "Spherex HR"
+msgstr "Spherex HR"
 
 #. Label of the frequency (Select) field in DocType 'Shift Schedule'
 #. Label of the frequency (Select) field in DocType 'Vehicle Service'
@@ -7090,8 +7090,8 @@ msgstr "Installera"
 
 #: frontend/src/components/InstallPrompt.vue:5
 #: frontend/src/components/InstallPrompt.vue:28
-msgid "Install Frappe HR"
-msgstr "Installera Frappe HR"
+msgid "Install Spherex HR"
+msgstr "Installera Spherex HR"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:432
 msgid "Insufficient Balance"
@@ -8314,8 +8314,8 @@ msgid "Login Failed"
 msgstr "Inloggning misslyckades"
 
 #: frontend/src/views/Login.vue:8
-msgid "Login to Frappe HR"
-msgstr "Logga in på Frappe HR"
+msgid "Login to Spherex HR"
+msgstr "Logga in på Spherex HR"
 
 #. Label of the longitude (Float) field in DocType 'Employee Checkin'
 #. Label of the longitude (Float) field in DocType 'Shift Location'

@@ -5916,7 +5916,7 @@ msgid "Fractional Cost"
 msgstr ""
 
 #: frontend/src/components/BaseLayout.vue:9
-msgid "Frappe HR"
+msgid "Spherex HR"
 msgstr "Frappe Personalwesen"
 
 #. Label of the frequency (Select) field in DocType 'Shift Schedule'
@@ -7071,7 +7071,7 @@ msgstr ""
 
 #: frontend/src/components/InstallPrompt.vue:5
 #: frontend/src/components/InstallPrompt.vue:28
-msgid "Install Frappe HR"
+msgid "Install Spherex HR"
 msgstr ""
 
 #: hrms/hr/doctype/leave_application/leave_application.py:432
@@ -8295,8 +8295,8 @@ msgid "Login Failed"
 msgstr ""
 
 #: frontend/src/views/Login.vue:8
-msgid "Login to Frappe HR"
-msgstr "Bei Frappe HR anmelden"
+msgid "Login to Spherex HR"
+msgstr "Bei Spherex HR anmelden"
 
 #. Label of the longitude (Float) field in DocType 'Employee Checkin'
 #. Label of the longitude (Float) field in DocType 'Shift Location'
