@@ -25,7 +25,7 @@ sed -i '/redis/d' ./Procfile
 sed -i '/watch/d' ./Procfile
 
 bench get-app erpnext
-bench get-app hrms
+bench get-app --branch develop https://github.com/QDaed/hrms.git
 
 bench new-site hrms.localhost \
 --force \
