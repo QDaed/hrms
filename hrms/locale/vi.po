@@ -3,20 +3,21 @@ msgstr ""
 "Project-Id-Version: hrms-spherex\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2025-06-08 09:35+0000\n"
-"PO-Revision-Date: 2025-08-22 00:08\n"
+"PO-Revision-Date: 2025-09-03 05:30+0700\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.13.1\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.13.1\n"
 "X-Crowdin-Project: hrms-spherex\n"
 "X-Crowdin-Project-ID: 822254\n"
 "X-Crowdin-Language: vi\n"
 "X-Crowdin-File: vi.po\n"
 "X-Crowdin-File-ID: 2\n"
-"Language: vi_VN\n"
+"X-Generator: Poedit 3.7\n"
 
 #. Label of the unlink_payment_on_cancellation_of_employee_advance (Check)
 #. field in DocType 'HR Settings'
@@ -225,14 +226,18 @@ msgstr "<b>Tổng số ngày phép được phân bổ</b> nhiều hơn số ng�
 
 #. Content of the 'Help' (HTML) field in DocType 'Salary Component'
 #: hrms/payroll/doctype/salary_component/salary_component.json
-msgid "<h3>Help</h3>\n\n"
-"<p>Notes:</p>\n\n"
+msgid ""
+"<h3>Help</h3>\n"
+"\n"
+"<p>Notes:</p>\n"
+"\n"
 "<ol>\n"
 "<li>Use field <code>base</code> for using base salary of the Employee</li>\n"
 "<li>Use Salary Component abbreviations in conditions and formulas. <code>BS = Basic Salary</code></li>\n"
 "<li>Use field name for employee details in conditions and formulas. <code>Employment Type = employment_type</code><code>Branch = branch</code></li>\n"
 "<li>Use field name from Salary Slip in conditions and formulas. <code>Payment Days = payment_days</code><code>Leave without pay = leave_without_pay</code></li>\n"
-"<li>Direct Amount can also be entered based on Condition. See example 3</li></ol>\n\n"
+"<li>Direct Amount can also be entered based on Condition. See example 3</li></ol>\n"
+"\n"
 "<h4>Examples</h4>\n"
 "<ol>\n"
 "<li>Calculating Basic Salary based on <code>base</code>\n"
@@ -245,14 +250,18 @@ msgid "<h3>Help</h3>\n\n"
 "<pre><code>Condition: employment_type==\"Intern\"</code></pre>\n"
 "<pre><code>Amount: 1000</code></pre></li>\n"
 "</ol>"
-msgstr "<h3>Trợ giúp</h3>\n\n"
-"<p>Ghi chú:</p>\n\n"
+msgstr ""
+"<h3>Trợ giúp</h3>\n"
+"\n"
+"<p>Ghi chú:</p>\n"
+"\n"
 "<ol>\n"
 "<li>Sử dụng trường <code>base</code> để sử dụng lương cơ bản của Nhân viên</li>\n"
 "<li>Sử dụng các chữ viết tắt của Thành phần lương trong điều kiện và công thức. <code>BS = Lương cơ bản</code></li>\n"
 "<li>Sử dụng tên trường cho chi tiết nhân viên trong điều kiện và công thức. <code>Loại hình làm việc = employment_type</code><code>Chi nhánh = branch</code></li>\n"
 "<li>Sử dụng tên trường từ Phiếu lương trong điều kiện và công thức. <code>Số ngày làm việc = payment_days</code><code>Nghỉ không lương = leave_without_pay</code></li>\n"
-"<li>Có thể nhập Số tiền trực tiếp dựa trên Điều kiện. Xem ví dụ 3</li></ol>\n\n"
+"<li>Có thể nhập Số tiền trực tiếp dựa trên Điều kiện. Xem ví dụ 3</li></ol>\n"
+"\n"
 "<h4>Ví dụ</h4>\n"
 "<ol>\n"
 "<li>Tính Lương cơ bản dựa trên <code>base</code>\n"
@@ -268,14 +277,16 @@ msgstr "<h3>Trợ giúp</h3>\n\n"
 
 #. Content of the 'html_6' (HTML) field in DocType 'Taxable Salary Slab'
 #: hrms/payroll/doctype/taxable_salary_slab/taxable_salary_slab.json
-msgid "<h4>Condition Examples</h4>\n"
+msgid ""
+"<h4>Condition Examples</h4>\n"
 "<ol>\n"
 "<li>Applying tax if employee born between 31-12-1937 and 01-01-1958 (Employees aged 60 to 80)<br>\n"
 "<code>Condition: date_of_birth&gt;date(1937, 12, 31) and date_of_birth&lt;date(1958, 01, 01)</code></li><br><li>Applying tax by employee gender<br>\n"
 "<code>Condition: gender==\"Male\"</code></li><br>\n"
 "<li>Applying tax by Salary Component<br>\n"
 "<code>Condition: base &gt; 10000</code></li></ol>"
-msgstr "<h4>Ví dụ Điều kiện</h4>\n"
+msgstr ""
+"<h4>Ví dụ Điều kiện</h4>\n"
 "<ol>\n"
 "<li>Áp dụng thuế nếu nhân viên sinh trong khoảng thời gian từ 31-12-1937 đến 01-01-1958 (Nhân viên từ 60 đến 80 tuổi)<br>\n"
 "<code>Điều kiện: date_of_birth&gt;date(1937, 12, 31) and date_of_birth&lt;date(1958, 01, 01)</code></li><br><li>Áp dụng thuế theo giới tính nhân viên<br>\n"
@@ -9785,6 +9796,7 @@ msgstr "Lương Cố định"
 
 #. Name of a DocType
 #: hrms/payroll/doctype/payroll_employee_detail/payroll_employee_detail.json
+#, fuzzy
 msgid "Payroll Employee Detail"
 msgstr "Lương Ròng"
 
@@ -9796,6 +9808,7 @@ msgstr "Lương Ròng"
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.js:61
 #: hrms/payroll/workspace/salary_payout/salary_payout.json
+#, fuzzy
 msgid "Payroll Entry"
 msgstr "Lương Ròng (Tiền tệ Công ty)"
 
@@ -10630,7 +10643,7 @@ msgstr "CTC Đã sửa đổi"
 #: hrms/hr/doctype/leave_block_list_date/leave_block_list_date.json
 #: hrms/payroll/doctype/salary_withholding/salary_withholding.json
 msgid "Reason"
-msgstr "Phải"
+msgstr "Lí do"
 
 #. Label of the reason_for_requesting (Text) field in DocType 'Job Requisition'
 #: hrms/hr/doctype/job_requisition/job_requisition.json
@@ -10683,7 +10696,7 @@ msgstr "Làm tròn"
 #. Name of a Workspace
 #: hrms/hr/workspace/recruitment/recruitment.json
 msgid "Recruitment"
-msgstr "Tuyến"
+msgstr "Tuyển dụng"
 
 #. Name of a report
 #. Label of a Link in the Overview Workspace
@@ -14847,4 +14860,3 @@ msgstr "{} là Trạng thái Chấm công không hợp lệ."
 #: hrms/hr/doctype/job_requisition/job_requisition.js:22
 msgid "{} {} open for this position."
 msgstr "{} {} đang mở cho vị trí này."
-
